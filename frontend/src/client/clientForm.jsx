@@ -18,7 +18,7 @@ export default class ClientForm extends Component {
         }
 
         return (
-            <div role="form" className="todo-form form">
+            <div role="form" className="client-form form">
                 <Grid cols="10 6 8">
                     <div className="form-group">
                         <label>Name</label>

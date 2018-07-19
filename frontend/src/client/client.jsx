@@ -82,7 +82,7 @@ export default class Client extends Component {
     }
 
     handleAdd() {
-        Axios.post(`${URL}/clients`, obj)
+        Axios.post(`${URL}/clients`, this.state.client)
             .then(reponse => {
                 this.refresh()
             })
@@ -103,7 +103,7 @@ export default class Client extends Component {
             <div>
                 <PageHeader name="Clients" small="register" />
                 <div className="row">
-                    <div role="form" className="todo-form form">
+                    <div role="form" className="client-form form">
                         <Grid cols="10 6 8">
                             <div className="form-group">
                                 <label>Registration Date</label>
@@ -171,7 +171,7 @@ export default class Client extends Component {
                                     icon="floppy-o" 
                                     value="Save"
                                     onClick={() => {
-                                        if (this.state.client._id != '')
+                                        if (this.state.client.datetimeregister != 0)
                                             this.handleUpdate()
                                         else
                                             this.handleAdd()

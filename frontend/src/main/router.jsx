@@ -10,5 +10,6 @@ export default props => (
         <Route path='/clients' component={Client} />
         <Route path="/about" component={About} />
         <Redirect from='*' to='/clients' />
+        
     </Router>
 )
