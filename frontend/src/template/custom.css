@@ -1,0 +1,16 @@
+.btn {
+    margin-right: 5px;
+}
+
+.markedAsDone {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.table-actions {
+    width: 105px;
+}
+
+.client-form {
+    padding-bottom: 60px;
+}
