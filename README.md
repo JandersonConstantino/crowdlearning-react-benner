@@ -8,7 +8,7 @@ De acordo com o site  [Midia Bom](http://midiaboom.com.br/empreendedorismo/voce-
 "Crowd é multidão. Learning é aprendizagem. E crowdlearning é um modelo em que pessoas apaixonadas pelos mesmos assuntos aprendem e ensinam lado a lado. Sem envolvimento financeiro (podendo ter, claro…), mas focado no ensinamento e aprendizado coletivo."
 
 ## O que foi desenvolvido?
-Foi desenvolvida uma aplicação de cadastro de clientes para exemplificar a utilização do React como frontend. Inicialmente foi escolhido não utilizar a bibloteca [Redux](https://redux.js.org/) para um contato inicial apenas com o framework.
+Foi desenvolvida uma aplicação de cadastro de clientes para exemplificar a utilização do React como frontend. Inicialmente foi escolhido não utilizar a bibloteca [Redux](https://redux.js.org/) para um contato inicial apenas com a lib.
 
 
 ## Instalação
